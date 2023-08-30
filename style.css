@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.main {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  height: 10vh;
+  width: 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 6em;
+  background-color: white;
+}
+.title {
+  font-weight: 900;
+}
+
+.title-info {
+  font-size: 7.5px;
+  font-weight: 600;
+  color: rgb(53, 50, 50);
+}
+.body {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(
+    to right,
+    rgb(94, 156, 215),
+    rgb(117, 173, 222),
+    rgb(110, 165, 222),
+    rgb(113, 168, 222)
+  );
+  color: white;
+}
+.hero-image {
+  width: 42vw;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+}
+.first-col {
+  padding: 1em 0;
+  border-bottom: 2px solid white;
+}
+.first-col h1 {
+  margin-bottom: 1em;
+}
+.second-col p {
+  margin-top: 2em;
+}
+.second-col button {
+  width: 250px;
+  height: 30px;
+  margin-top: 2em;
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: rgb(88, 152, 216);
+}
+button {
+  border-radius: 3px;
+}
+.second-section {
+  background-color: white;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1em 0;
+}
+.second-section h2 {
+  font-size: 0.8rem;
+}
+.second-section p,
+.second-section h2 {
+  margin-bottom: 0.8em;
+}
+.second-section button {
+  width: 150px;
+  height: 30px;
+  border: 1px solid rgb(88, 152, 216);
+  color: rgb(88, 152, 216);
+  font-size: 12px;
+  font-weight: 700;
+}
+.third-section {
+  height: 30vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(88, 152, 216);
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 0;
+  height: 10vh;
+}
+.icon + .icon {
+  margin-left: 2em;
+}
+.icon .div-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  border: 1px solid white;
+  margin-bottom: 10px;
+}
+
+.icon img {
+  max-width: 100%;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  filter: invert(90%) saturate(320%);
+}
+.icon p {
+  font-size: 10px;
+  font-weight: 600;
+
+  color: white;
+}
+.line {
+  height: 2px;
+  width: 60%;
+  margin-top: 10px;
+  background-color: white;
+}
